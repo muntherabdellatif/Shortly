@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <!-- font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Shortly</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">resources</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">login</a>
+            </li>
+            <li class="nav-item">
+              <button class="Btn sign-up">Sign up</button>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </nav>
+    <!-- langing -->
+    <div class="landing">
+      <div class="text-content">
+        <h1 class="heading">More than just shorter links</h1>
+        <p class="discription">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore qui
+          eaque praesentium itaque voluptates magnam
+        </p>
+        <button class="Btn get-started">Get Started</button>
+      </div>
+      <div class="img">
+        <img src="/img/illustration-working.svg" alt="svg img" />
+      </div>
+    </div>
+    <!-- shorten form -->
+    <form action="/" class="shorten-from" id="shorten-from">
+      <div class="input-container">
+        <input type="text" name="link" id="link" placeholder="Shorten a link here" />
+        <p id="error"></p>
+      </div>
+      <button type="submit" class="Btn submit-shorten-form" id="submit-shorten-form">
+        Shorten it!
+      </button>
+    </form>
+  </div>
+  <!-- data statistic -->
+  <div class="data-statistics">
+    <div class="container">
+      <!-- shorten link data -->
+      <div class="shorten-link-data" id="shorten-link-data"></div>
+      <!-- heading -->
+      <div class="heading">
+        <h1>Advanced statistics</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+          ratione atque excepturi earum, maiores aliquam voluptate tenetur
+        </p>
+      </div>
+      <!-- boxes container -->
+      <div class="boxes-container">
+        <div class="green-line-vertical"></div>
+        <div class="box brand-box">
+          <div class="icon">
+            <img src="/img/icon-brand-recognition.svg" alt="" />
+          </div>
+          <div class="header">Brand Recognition</div>
+          <div class="discrtiption">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+            aperiam dolores, doloribus facilis aliquam, ea autem maxime neque
+            omnis quo eos consectetur aspernatur distinctio.
+          </div>
+        </div>
+        <div class="box records-box">
+          <div class="icon">
+            <img src="./img/icon-detailed-records.svg" alt="" />
+          </div>
+          <div class="header">Detailed Records</div>
+          <div class="discrtiption">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+            aperiam dolores, doloribus facilis aliquam, ea autem maxime neque
+            omnis quo eos consectetur aspernatur distinctio.
+          </div>
+        </div>
+        <div class="box fully-customizable-box">
+          <div class="icon">
+            <img src="/img/icon-fully-customizable.svg" alt="" />
+          </div>
+          <div class="header">fully Customizable</div>
+          <div class="discrtiption">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+            aperiam dolores, doloribus facilis aliquam, ea autem maxime neque
+            omnis quo eos consectetur aspernatur distinctio.
+          </div>
+        </div>
+      </div>
+      <div class="green-line-horizontal"></div>
+    </div>
+  </div>
+  <!-- get started section  -->
+  <div class="get-started-section">
+    <div class="header">Boost your links today</div>
+    <button class="Btn">Get Started</button>
+  </div>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="header">
+        <h2>Shortly</h2>
+      </div>
+      <div class="features">
+        <div class="list-name">Features</div>
+        <ul>
+          <li>Link Shortening</li>
+          <li>Branded Links</li>
+          <li>Analitics</li>
+        </ul>
+      </div>
+      <div class="resources">
+        <div class="list-name">Resources</div>
+        <ul>
+          <li>Blog</li>
+          <li>Developers</li>
+          <li>Support</li>
+        </ul>
+      </div>
+      <div class="company">
+        <div class="list-name">Company</div>
+        <ul>
+          <li>About</li>
+          <li>Our Team</li>
+          <li>Careers</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="icons">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-pinterest"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <script src="index.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
